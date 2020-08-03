@@ -1,0 +1,435 @@
+#homepage .search-box-toggle {
+    display: none;
+}
+
+.homepage-header {
+    padding: 0 0 50px;
+    height: 700px;
+}
+
+.homepage-header .container {
+    position: relative;
+    height: 100%;
+}
+
+.homepage-header__container {
+    position: relative;
+    height: 100%;
+}
+
+.homepage-header__container2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 100%;
+}
+
+.homepage-header__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.homepage-header__guide {
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+
+.homepage-header__guide,
+.homepage-header__guide a {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.homepage-header__guide a {
+    text-decoration: underline;
+}
+
+.homepage-search-box {
+    position: relative;
+}
+
+.homepage-search-box .typeahead {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 1px solid #DCDCDC;
+}
+
+.homepage-search-box .typeahead > li > a {
+    padding: 10px 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.homepage-search-box__input {
+    float: left;
+    height: 50px;
+    border: none;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 2px 3px 3px 2px;
+    padding: 10px 70px 10px 50px;
+    background: url('../img/homepage/search.svg') #FFF no-repeat 15px 15px/22px 22px;
+    width: 100%;
+}
+
+.homepage-search-box__button {
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    padding: 0 20px;
+    background: #51B9A2;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.homepage-header__register {
+    text-align: center;
+    margin-top: 85px;
+}
+
+/** Block definition */
+
+.homepage-block {
+    margin: 25px 0;
+    /*overflow: hidden;*/
+}
+
+.homepage-block h2 {
+    text-transform: uppercase;
+}
+
+.homepage-block-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homepage-block-heading-description {
+    text-align: center;
+}
+
+/** Category Listing */
+
+.category-list {
+    margin-bottom: 25px;
+}
+
+.category-list__item {
+    margin: 20px 0;
+}
+
+.category-list__item__image-container {
+    position: relative;
+    margin: 0 auto 15px;
+    height: 85px;
+    width: 85px;
+    border-radius: 50px;
+}
+
+.category-list__item__image {
+    position: absolute;
+    padding: 22px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.category-list__item__image img,
+.category-list__item__image svg {
+    fill: #455468;
+    height: 100%;
+    width: 100%;
+}
+
+.category-list__item__title {
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category-list__more {
+    margin: 25px 0;
+}
+
+/** End Category Listing */
+
+/** Discover */
+
+.homepage-discover {
+    background: #faf9f9;
+    padding: 40px 0;
+}
+
+.discover-item {
+    padding: 25px 15px;
+    min-height: 115px;
+    margin: 15px 0;
+}
+
+.discover-item__content-container {
+    position: relative;
+    padding: 0 40px 0 65px;
+}
+
+.discover-item__icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.discover-item__content-container--green .discover-item__title,
+.discover-item__content-container--green i {
+    color: #51B9A2;
+}
+
+.discover-item__content-container--blue .discover-item__title,
+.discover-item__content-container--blue i {
+    color: #19A8D9;
+}
+
+.discover-item__title {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.discover-item__description {
+    font-size: 14px;
+}
+
+/** Qu'est ce My Mooc ? */
+
+.homepage-my_mooc-info__container {
+    margin: 15px 0 0;
+}
+
+.homepage-my_mooc-info__image-container {
+    position: relative;
+}
+
+.homepage-my_mooc-info__image {
+    margin-top: 45px;
+    width: 80%;
+}
+
+@media (max-width: 1199px) {
+    .homepage-my_mooc-info__image {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .homepage-my_mooc-info__image {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .homepage-my_mooc-info__image {
+        margin: 0 auto 15px;
+    }
+}
+
+/*.homepage-my_mooc-info__main-image,*/
+/*.homepage-my_mooc-info__secondary-image {*/
+/*width: 100%;*/
+/*box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*.homepage-my_mooc-info__secondary-image {*/
+/*position: relative;*/
+/*top: -30px;*/
+/*left: -30px;*/
+/*}*/
+
+.homepage-my_mooc-info__top__item {
+    margin: 10px 12%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.homepage-my_mooc-info__top__image {
+    margin: 0 auto 10px;
+}
+
+/** Mooc info */
+
+.homepage-mooc-info {
+    background: #faf9f9;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+.homepage-mooc-info__image-container {
+    margin-top: 5%;
+    position: relative;
+}
+
+.homepage-mooc-info__main-image,
+.homepage-mooc-info__secondary-image {
+    width: 75%;
+}
+
+.homepage-mooc-info__secondary-image {
+    position: relative;
+    margin-top: -45px;
+    left: 95px;
+}
+
+/** Leaderboard */
+.homepage-leaderboard-content__container .nav {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.homepage-leaderboard-content__container .nav li {
+    text-align: center;
+    margin-right: 25px;
+}
+
+.homepage-leaderboard-content__container .nav li.last {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .homepage-leaderboard-content__container .nav li {
+        margin-right: 5px;
+    }
+}
+
+.homepage-leaderboard-content__container .nav li > a:hover,
+.homepage-leaderboard-content__container .nav li > a:focus,
+.homepage-leaderboard-content__container .nav li > a {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.homepage-leaderboard-content__container .nav li > a:hover,
+.homepage-leaderboard-content__container .nav li.active > a {
+    color: #1F64AE;
+    border-bottom: 1px solid #1F64AE;
+}
+
+.homepage-leaderboard__item__image-container {
+    float: left;
+    position: relative;
+    padding-top: 67px; /* ratio 16/9 */
+    width: 120px;
+}
+
+.homepage-leaderboard__item__image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.homepage-leaderboard__item__content-container {
+    position: relative;
+    top: 0;
+    padding: 5px 20px 5px 135px;
+}
+
+.homepage-leaderboard__item__overlay {
+    background: rgba(31, 100, 174, 0.35);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 24px;
+    line-height: 58px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+}
+
+.homepage-leaderboard__item__title {
+    text-transform: uppercase;
+    color: #19A8D9;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.homepage-leaderboard__item__description {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.homepage-leaderboard__item--user .homepage-leaderboard__item__image-container {
+    width: 67px;
+}
+
+.homepage-leaderboard__item--user  .homepage-leaderboard__item__content-container {
+    padding-left: 87px
+}
+
+.homepage-leaderboard__item--conceptor .homepage-leaderboard__item__image-container {
+    width: 67px;
+}
+
+.homepage-leaderboard__item--conceptor  .homepage-leaderboard__item__content-container {
+    padding-left: 87px
+}
+
+.homepage-leaderboard-info__container {
+    margin: 10px 0;
+}
+
+.homepage-leaderboard-info__item {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.homepage-leaderboard-info__first {
+    color: #19A8D9;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.homepage-leaderboard-info__second {
+    font-size: 18px;
+}
+
+.homepage-leaderboard-info__separator {
+    position: relative;
+}
+
+.homepage-leaderboard-info__separator span {
+    position: absolute;
+    top: 25px;
+    left: -15px;
+    right: -15px;
+    border-bottom: 3px solid #19A8D9;
+}
+
+.homepage-leaderboard-info__paragraph {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.homepage-leaderboard-info__register {
+    text-align: center;
+    margin: 15px 0 30px;
+}

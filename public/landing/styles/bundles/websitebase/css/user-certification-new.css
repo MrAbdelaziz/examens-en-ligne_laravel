@@ -1,0 +1,26 @@
+#modal-certification .modal-description {
+    text-align: center;
+}
+
+#modal-certification form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#modal-certification form label {
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+#modal-certification .modal-later {
+    text-align: center;
+}
+
+#modal-certification .modal-later a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #1F64AE;
+}

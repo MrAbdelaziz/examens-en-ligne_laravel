@@ -1,0 +1,68 @@
+/*Add review item*/
+
+.review-edit {
+    margin-bottom: 15px;
+    padding: 25px 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.review-edit__title {
+    font-weight: 400;
+}
+
+.review-edit__stars {
+    font-size: 12px;
+    font-weight: 400;
+    color: #A7A7A7;
+}
+
+.review-edit__stars__item {
+    margin: 20px 0;
+}
+
+.review-edit__stars__raty,
+.review-edit__stars__value {
+    float: left;
+}
+
+.review-edit__stars__raty img {
+    padding-right: 5px;
+    height: 18px;
+    width: 23px;
+}
+
+.review-edit__stars__value {
+    vertical-align: top;
+    margin: 2px 0 0 5px;
+}
+
+.review-edit__description {
+    margin-bottom: 30px;
+}
+
+.review-edit__description textarea,
+.review-edit__description textarea:focus {
+    border-width: 0 0 1px 0;
+    padding: 10px 0;
+    box-shadow: none;
+    resize: none;
+}
+
+.review-edit__user {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.review-edit__user__image {
+    margin: 10px auto;
+    height: 45px;
+    width: 45px;
+}
+
+.review-edit__user__image img {
+    border-radius: 30px;
+}
+
+/* End Product Reviews */

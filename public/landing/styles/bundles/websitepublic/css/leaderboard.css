@@ -1,0 +1,121 @@
+#leaderboard-header {
+    height: 170px;
+    position: relative;
+}
+
+#leaderboard_index #main-container {
+    padding-bottom: 40px;
+}
+
+#leaderboard_index .introduction {
+    font-size: 15px;
+    color: #343540;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#leaderboard_index .table th {
+    background: #19A8D9;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#leaderboard_index .table td {
+    background: #fff;
+    color: #343540;
+    line-height: 35px;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+#leaderboard_index .table td a {
+    color: #343540;
+    text-decoration: none;
+}
+
+#leaderboard_index .table td.id {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#leaderboard_index .table td.logo {
+    width: 100px;
+}
+
+#leaderboard_index .table td.profile {
+    width: 45px;
+}
+
+#leaderboard_index .table td.cover-mooc,
+#leaderboard_index .table td.cover-mooc img {
+    width: 100px;
+}
+
+#leaderboard_index .table td.stars {
+    text-align: right;
+}
+
+/*#leaderboard_index .table td.stars span.glyphicon, #leaderboard_index .table td.stars i.fa {*/
+    /*color: #f2e983;*/
+    /*font-size: 15px;*/
+/*}*/
+/**/
+/*#leaderboard_index .table td.stars.empty span.glyphicon, #leaderboard_index .table td.stars.empty i.fa {*/
+    /*color: #dadada;*/
+    /*font-size: 15px;*/
+/*}*/
+/**/
+/*#leaderboard_index .table td.stars .note {*/
+    /*font-size: 13px;*/
+    /*font-weight: 700;*/
+    /*display: inline-block;*/
+    /*margin-left: 5px;*/
+    /*width: 40px;*/
+/*}*/
+
+#leaderboard_index .view-more-mooc a {
+    margin: 20px auto 0 auto;
+    float: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+}
+
+
+#leaderboard-popularity .buttons {
+    text-align: center;
+}
+
+/*#leaderboard_index .table td.stars i {*/
+    /*color: #e7d350;*/
+/*}*/
+
+#leaderboard-product th a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+#leaderboard-product td.name {
+    width: 30%;
+}
+
+#leaderboard-product a{
+    color: #ffffff;
+}
+
+#leaderboard-popularity th.asc, #leaderboard-popularity th.asc a, #leaderboard-popularity th.desc, #leaderboard-popularity th.desc a {
+    background-color: #fff;
+    color: #3377da;
+}
+
+#leaderboard-products .category img,
+#leaderboard-products .category svg {
+    width: 35px;
+    vertical-align: middle;
+}

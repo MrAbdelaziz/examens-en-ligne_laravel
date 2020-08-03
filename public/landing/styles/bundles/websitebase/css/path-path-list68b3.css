@@ -1,0 +1,127 @@
+.path-header {
+    height: auto;
+    background-image: url('../img/path/path-header.jpg');
+    padding-bottom: 50px;
+    color: #FFF;
+}
+
+.path-header__description {
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.path-header__bottom > .container {
+    height: 150px;
+    background-color: #fff;
+}
+
+.path-header__more {
+    margin-bottom: 40px;
+}
+
+.path-header__description-item {
+    margin: 0 0 15px;
+}
+
+.path-header__description-item .description-item {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.path-header__description-item .description-item i {
+    margin: 0 auto 15px;
+    color: #FFF;
+    display: block;
+}
+
+/* Override Content nav */
+
+.content-nav {
+    /*margin: 15px 0 20px;*/
+}
+
+@media (max-width: 991px) {
+    .content-nav .nav > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* End Override Content nav */
+
+/* Override Path list */
+
+.path-item__title {
+    margin: 20px 0 15px 0;
+}
+
+.path-item__detail__item--certifying {
+    font-weight: 400;
+}
+
+.path-item__partner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.path-item__partner span {
+    float: left;
+    padding: 5px 10px 0 0;
+}
+
+.path-item__partner img {
+    float: left;
+    width: 80px;
+    height: 30px;
+}
+
+.path-item__detail__item {
+    padding-top: 5px;
+    height: 30px;
+}
+
+/*@media (min-width: 769px) and (max-width: 991px) {*/
+/*.path-item__partner {*/
+/*padding-bottom: 20px;*/
+/*}*/
+/*}*/
+
+.path-item__category {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #EA7C60;
+    padding: 0 2px;
+    min-width: 100px;
+    text-align: center;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+    margin: 3px 0;
+}
+
+@media (max-width: 991px) {
+    .path-item__title {
+        margin-top: 15px;
+    }
+
+    .path-item__partner {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .path-item__content {
+        padding-left: 15px;
+    }
+
+    .path-item__detail__item {
+        float: none;
+    }
+}

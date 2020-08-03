@@ -1,0 +1,82 @@
+
+/*list*/
+
+.product-review-list {
+    font-size: 14px;
+}
+
+.product-review-list__item {
+    margin: 15px 0;
+    padding: 35px 15px;
+    border-top: 1px solid #DADADA;
+    border-bottom: 1px solid #EEEEEF;
+    background: #FBFAFA;
+}
+
+.product-review-list__user {
+    text-align: center;
+    font-size: 12px;
+}
+
+.product-review-list__image {
+    margin: 10px auto;
+    height: 60px;
+    width: 60px;
+}
+
+.product-review-list__image img {
+    border-radius: 30px;
+}
+
+.product-review-list__title {
+    margin-bottom: 15px;
+    height: 14px;
+}
+
+.product-review-list__nb-review {
+    font-weight: 400;
+    font-style: italic;
+    color: #19A8D9;
+}
+
+.product-review-list__name {
+    float: left;
+    font-weight: 400;
+    line-height: 14px;
+    margin-right: 5px;
+}
+
+.product-review-list__pusblished {
+    float: left;
+    line-height: 14px;
+    /*font-size: 10px;*/
+    /*font-weight: 400;*/
+    /*font-style: italic;*/
+}
+
+.product-review-list__stars {
+    line-height: 14px;
+    font-size: 16px;
+    float: right;
+}
+
+.product-review-list__description {
+    margin-bottom: 25px;
+}
+
+.product-review-list__buttons {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-review-list__buttons a {
+    margin-right: 50px;
+}
+
+.product-review-list__buttons span {
+    vertical-align: top;
+}
+
+.product-review-list__buttons i {
+    margin-left: 5px;
+}

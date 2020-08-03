@@ -1,0 +1,193 @@
+
+/** What is Mooc ?*/
+
+.what-mooc-header {
+    background-image: url('../img/cms/what-is-mooc-header.jpg');
+}
+
+.page__paragraph--follow {
+    background: url('../img/cms/what-is-mooc-follow.jpg') no-repeat 0 center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.page__paragraph--follow .page__paragraph__title {
+    color: #FFF;
+    margin: 30px 0;
+}
+
+.follow-mooc-info__item {
+    color: #FFF;
+    padding: 10px 15px;
+    background: rgba(25,168,217, 0.7);
+    height: 85px;
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+    display: table;
+}
+
+.follow-mooc-info__item > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+
+    .follow-mooc-info__item {
+        margin: 15px 0;
+    }
+
+    .button__container {
+        margin-top: 25px;
+    }
+
+    .button--left,
+    .button--right {
+        float: none;
+        margin: 15px 0;
+    }
+}
+
+/** What is Path ? */
+
+.what-path-header {
+    background-image: url('../img/cms/what-is-path-header.jpg');
+}
+
+.follow-path-info__item {
+    margin: 15px 0;
+    display: table;
+    font-size: 14px;
+}
+
+.follow-path-info__image,
+.follow-path-info__content {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.follow-path-info__image__container {
+    margin-right: 30px;
+    padding: 7px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.follow-path-info__image--burntsienna i {
+    color: #EA7C60;
+}
+
+.follow-path-info__image--tradewind i {
+    color: #51B9A2;
+}
+
+.follow-path-info__image--mantis i {
+    color: #91C259;
+}
+
+.follow-path-info__title {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.partner-path-info {
+    text-align:center;
+}
+
+.partner-path-info__item {
+    margin: 15px;
+    display: inline-block;
+}
+
+/** About */
+
+/*.about-header {*/
+    /*background: url('/bundles/websitepublic/img/cms/about/mymoocteam.jpg') no-repeat 0 center;*/
+/*}*/
+
+.page__paragraph--plateform img {
+    margin: 10px 0;
+}
+
+.page__paragraph--community .community-item {
+    margin: 50px 0 0;
+    float: left;
+    width: 33.33333333%;
+    position: relative;
+}
+
+.page__paragraph--community .community-item__content {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .page__paragraph--community .community-item {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/* Mobile */
+
+#core_cms_application .footer {
+    margin-top: 0;
+}
+
+.page__paragraph--application {
+    padding-top: 115px;
+    margin-bottom: 0;
+    background: url('../img/cms/application/background.jpg') no-repeat 0 bottom;
+    height: 600px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.page__paragraph--application .page__paragraph__title {
+    color: #FFF;
+}
+
+.page__paragraph--application ul {
+    margin-top: 60px;
+}
+
+.page__paragraph--application ul li {
+    line-height: 30px;
+}
+
+.download-icon {
+    margin-top: 60px;
+}
+
+.download-icon__item {
+    float: left;
+    margin-right: 30px;
+}
+
+.download-icon__item:last-child {
+    margin-right: 0;
+}
+
+.download-icon__item svg {
+    height: 50px;
+    width: 160px;
+}
+
+@media (max-width: 767px) {
+    .page__paragraph--application {
+        padding-top: 70px;
+    }
+
+    .download-icon__item {
+        margin-right: 15px;
+    }
+}
